@@ -35,8 +35,9 @@ public class Main {
         public static void task3(){
          System.out.print("Задание 3");
          int year = 2021;
-         if ((year -1) / 4 ==1 && year % 100 == 0 || year == 0);
-            year ++;
+         if (year % 4 ==0 && year %100 != 0 || year%400 == 0);
+            ;
+            System.out.println(year +"Високосный год" ;
      }
 
          public static void task4(){
